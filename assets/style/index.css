@@ -58,12 +58,13 @@ input[type="button"] {
 }
     
 .about-me{
-    margin-top: 150px;
-    width: 600px;
+    margin-top: 15%;
+    width: 60%;
     color: #fff;
     display: grid;
     gap: 5px;
 }
+
 
 p1 {
     font-size: 40px;
@@ -149,6 +150,7 @@ p:last-of-type {
 }
 
 .my-projects h1 {
+    margin-top: 5%;
     color: #fff;
 }
 
@@ -187,3 +189,4 @@ h1 {
 .contact-me h1 {
     font-size: 40px;
 }
+
