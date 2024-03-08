@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+:root {
+    --app-background-dark: rgb(24, 23, 32);
+}
+  
+body {
+    background-color: var(--app-background-dark);
+}
+/*--------------------------------------------*/
+/*header--------------------------------------*/
+/*--------------------------------------------*/
+header {
+    background-color: #996666;
+    color: #fff;
+    height: 56px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    padding-top: 15px;
+    padding-right: 6px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+input[type="button"] {
+    background-color: #996666;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+/*--------------------------------------------*/
+/*about me herobanner-------------------------*/
+/*--------------------------------------------*/
+
+.container {
+    width: min(100% - 30px, 1080px);
+    height: 100vh;
+    margin-inline: auto;
+}
+    
+.about-me{
+    margin-top: 150px;
+    width: 600px;
+    color: #fff;
+    display: grid;
+    gap: 5px;
+}
+
+p1 {
+    font-size: 40px;
+    color: #996666;
+    font-weight: 500;
+}
+
+p2 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+p3 {
+    font-size: 20px;
+}
+
+/*--------------------------------------------*/
+/*profile-------------------------------------*/
+/*--------------------------------------------*/
+
+.profile {
+    margin-top: 24%;
+}
+
+.headings {
+    display: grid;
+    justify-content: center;
+}
+
+h2 {
+    color: #996666;
+}
+
+h3 {
+    display: flex;
+    gap: 10px;
+    font-size: 40px;
+    color: #fff;
+}
+
+h3 p {
+    color: #996666;
+}
+
+p {
+    color: #fff;
+}
+
+p:first-of-type {
+    margin-top: 4%;
+}
+
+p:last-of-type {
+    margin-top: 2%;
+}
+
+.goals {
+    color: #fff;
+}
+
+.goals p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.points {
+    margin-top: 3%;
+    display: flex;
+    gap: 20%;
+}
+
