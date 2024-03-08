@@ -202,6 +202,11 @@ h1 {
 
 /* tablet view */
 @media (max-width: 768px) {
+
+    header a {
+        display: none;
+    }
+
     .container {
         width: 90%;
     }
@@ -216,7 +221,7 @@ h1 {
 }
 
 /* mobile view */
-@media (max-width: 480px) {
+@media (max-width: 320px) {
 
     header {
         width: 120%;
@@ -228,6 +233,7 @@ h1 {
 
     header a {
         margin-right: 20%;
+        visibility: visible;
     }
 
     .about-me {
