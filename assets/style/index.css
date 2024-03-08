@@ -190,3 +190,59 @@ h1 {
     font-size: 40px;
 }
 
+/*---------------------------------*/
+/*responsive  ---------------------*/
+/*---------------------------------*/
+/* laptop view */
+@media (min-width: 769px) {
+    header a {
+        display: none;
+    }
+}
+
+/* tablet view */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .herobanner {
+        flex-direction: column-reverse;
+    }
+
+    .about-me, .profile, .goals, .projects, .contact-me {
+        margin-bottom: 10px;
+    }
+}
+
+/* mobile view */
+@media (max-width: 480px) {
+
+    header {
+        width: 120%;
+    }
+
+    header h1 {
+        margin-left: 20%;
+    }
+
+    header a {
+        margin-right: 20%;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    header nav ul li {
+        visibility: hidden;
+    }
+
+    .herobanner {
+        flex-direction: column;
+    }
+
+    .about-me, .profile, .goals, .projects, .contact-me {
+        margin-bottom: 5px;
+    }
+}
