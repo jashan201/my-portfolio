@@ -19,7 +19,9 @@ header {
 }
 
 h1 {
+    font-size: 40px;
     font-weight: 500;
+    padding-top: 6px;
 }
 
 nav ul {
@@ -168,4 +170,20 @@ h1 {
 .description-1 p {
     width: 50%;
     font-size: 20px;
+}
+
+
+/*--------------------------------------*/
+/*contact me----------------------------*/
+/*--------------------------------------*/
+
+.contact-me {
+    margin-top: 5%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-me h1 {
+    font-size: 40px;
 }
