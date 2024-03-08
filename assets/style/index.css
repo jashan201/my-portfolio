@@ -133,3 +133,39 @@ p:last-of-type {
     gap: 20%;
 }
 
+/*--------------------------------------*/
+/*projects------------------------------*/
+/*--------------------------------------*/
+
+.projects {
+    margin-top: 24%;
+}
+
+.my-projects {
+    display: grid;
+    justify-content: center;
+}
+
+.my-projects h1 {
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.img {
+    margin-top: 2%;
+    width: 40%;
+    height: 10%;
+}
+
+.description-1 {
+    display: flex;
+}
+
+.description-1 p {
+    width: 50%;
+    font-size: 20px;
+}
