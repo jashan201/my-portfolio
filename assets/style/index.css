@@ -59,12 +59,11 @@ input[type="button"] {
     
 .about-me{
     margin-top: 15%;
-    width: 60%;
+    width: 90%;
     color: #fff;
     display: grid;
     gap: 5px;
 }
-
 
 p1 {
     font-size: 40px;
@@ -80,6 +79,46 @@ p2 {
 p3 {
     font-size: 20px;
 }
+
+/*---------------------------------*/
+/*animation------------------------*/
+/*---------------------------------*/
+
+.animation {
+    display: flex;
+}
+
+.animation img {
+    width: 20%;
+}
+
+.rotatey {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    -webkit-animation: rotatey 2.5s linear infinite;
+       -moz-animation: rotatey 2.5s linear infinite;
+            animation: rotatey 2.5s linear infinite;
+}
+  
+@-moz-keyframes rotatey {
+    0% { -moz-transform: rotateY(0deg); }
+    50% { -moz-transform: rotateY(180deg); }
+    100% { -moz-transform: rotateY(360deg); }
+}
+  
+@-webkit-keyframes rotatey {
+    0% { -webkit-transform: rotateY(0deg); }
+    50% { -webkit-transform: rotateY(180deg); }
+    100% { -webkit-transform: rotateY(360deg); }
+}
+  
+@keyframes rotatey {
+    0% { transform: rotateY(0deg); }
+    50% { transform: rotateY(180deg); }
+    100% { transform: rotateY(360deg); }
+}
+  
 
 /*--------------------------------------------*/
 /*profile-------------------------------------*/
@@ -195,12 +234,19 @@ h1 {
 /*---------------------------------*/
 /* laptop view */
 @media (min-width: 769px) {
+    header a {
+        display: none;
+    }
 }
 
 /* tablet view */
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .container {
         width: 90%;
+    }
+
+    header a {
+        display: none;
     }
 
     .herobanner {
@@ -236,6 +282,14 @@ h1 {
 
     .about-me {
         width: 100%;
+    }
+
+    .animation {
+        display: grid;
+    }
+
+    .animation img {
+        width: 60%;
     }
 
     header nav ul {
