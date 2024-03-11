@@ -270,6 +270,10 @@ h1 {
     .about-me, .profile, .goals, .projects, .contact-me {
         margin-bottom: 10px;
     }
+
+    button {
+        width: 20%;
+    }
 }
 
 /* mobile view */
