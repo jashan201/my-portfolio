@@ -80,6 +80,20 @@ p3 {
     font-size: 20px;
 }
 
+button {
+    width: 12%;
+    height: 180%;
+    background-color: #996666;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
 /*---------------------------------*/
 /*animation------------------------*/
 /*---------------------------------*/
@@ -139,8 +153,8 @@ h2 {
 
 h3 {
     display: flex;
-    gap: 10px;
     font-size: 40px;
+    gap: 10px;
     color: #fff;
 }
 
@@ -282,6 +296,10 @@ h1 {
 
     .about-me {
         width: 100%;
+    }
+
+    button {
+       visibility: hidden;
     }
 
     .animation {
